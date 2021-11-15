@@ -1,3 +1,4 @@
+import SocialIcons from "./SocialIcons"
 import { Container } from "./styles/Container.styled"
 import { Flex } from "./styles/Flex.styled"
 import { StyledFooter } from "./styles/Footer.styled"
@@ -28,7 +29,7 @@ export default function Footer() {
             <li>Contact Us</li>
           </ul>
 
-          {/* Social Icons */}
+          <SocialIcons />
         </Flex>
         <p>&copy; 2021 Huddle. All rights reserved</p>
       </Container>

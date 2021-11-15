@@ -3,6 +3,7 @@ import { GlobalStyles } from "./components/styles/Global"
 import Header from "./components/Header"
 import { Container } from "./components/styles/Container.styled"
 import content from "./content"
+import Footer from "./components/Footer"
 import Card from "./components/Card"
 
 const theme = {
@@ -25,6 +26,7 @@ function App() {
             <Card key={index} item={item} />
           ))}
         </Container>
+        <Footer />
       </>
     </ThemeProvider>
   )
